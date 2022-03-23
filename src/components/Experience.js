@@ -45,6 +45,7 @@ class Experience extends Component {
 
     return (
       <div id="experience">
+        <h2>Work Experience</h2>
         <p className="expLength">
           <span>
             {startDate ? startDate : "20XX"} - {endDate ? endDate : "20XX"}

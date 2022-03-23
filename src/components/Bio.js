@@ -38,7 +38,7 @@ class Bio extends Component {
         <h2 className="name">{name ? name : "Your Name"}</h2>
         <h3 className="title">{title ? title : "Title"}</h3>
         <h3 className="bio">Bio</h3>
-        <p className="bio">
+        <p className="bioPara">
           {bio
             ? bio
             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}

@@ -7,12 +7,15 @@ import Experience from "./components/Experience";
 class App extends Component {
   render() {
     return (
-      <div id="cv">
-        <Bio />
-        <Info />
-        <Education />
-        <Experience />
-      </div>
+      <>
+        <h1 className="header">Resume Builder</h1>
+        <div id="cv">
+          <Bio />
+          <Info />
+          <Education />
+          <Experience />
+        </div>
+      </>
     );
   }
 }
